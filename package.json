@@ -1,0 +1,32 @@
+{
+  "name": "halo-halo",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "files": ["dist"],
+  "main": "./dist/halo-halo.umd.cjs",
+  "module": "./dist/halo-halo.js",
+  "exports": {
+    ".": {
+      "import": "./dist/halo-halo.js",
+      "require": "./dist/halo-halo.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagaroggu/halo-halo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tagaroggu/halo-halo/issues"
+  },
+  "homepage": "https://github.com/tagaroggu/halo-halo#readme",
+  "devDependencies": {
+    "vite": "^3.0.9"
+  }
+}
